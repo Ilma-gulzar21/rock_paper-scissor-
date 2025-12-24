@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  background:linear-gradient(#e75480,#e9658d,#ec7699);
+}
+#container {
+   background-color: white; 
+   border-radius: 20px; 
+   text-align: center;
+   margin: 15%;
+   height:auto;
+   width :70%; 
+   padding:20px;
+   border:3px solid black;
+}
+h1 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-transform:uppercase;
+color: black;
+}
+.score {
+  height:auto;
+  width:auto;
+  display:inline-block;
+  padding:2%;
+  border-radius: 5px;
+  background-color:#e5e5e5;
+  font-family:Arial, Helvetica, sans-serif, Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap:2%;
+  margin-top: 20px;
+}
+#msg-container {
+  margin-top:5%;
+}
+#items{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+#rock , #paper , #scissor {
+  border:2px solid #f94449;
+  border-radius: 3px;
+}
+#msg-container {
+margin-bottom: 5%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+font-family:Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background-color: #e75480;
+  color: #fff;
+  border:none;
+  padding:8px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor :pointer;
+  
+}
+button:hover {
+  background-color:#e9658d ;
+}
+img:hover {
+ filter: brightness(80%);
+}
+img,span {
+  height:50px;
+  width:80px;
+  cursor :pointer;
+  border-radius: 2px;
+}
+#msg {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#msg-second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+.players {
+  font-weight: 600;
+}
